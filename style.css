@@ -373,9 +373,11 @@ body {
   .item {
     background: white;
     padding: 0 12px 10px 12px;
+    transition: transform 0.3s ease-in-out;
 
     &:hover {
       cursor: pointer;
+      transform: scale(1.025);
     }
 
     &:hover .title {
