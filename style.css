@@ -471,3 +471,13 @@ body {
     scroll-behavior: smooth;
   }
 }
+
+/* 解決方案 1 */
+/* section {
+  padding-top: 92px; 
+} */
+
+/* 解決方案 2 */
+section {
+  scroll-margin-top: 92px;
+}
